@@ -1,0 +1,13 @@
+CREATE DATABASE city_manager;
+
+USE city_manager;
+
+CREATE TABLE citys (
+    id INT(11) AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    nation VARCHAR(255) NOT NULL,
+    area INT(11) NOT NULL,
+    population INT(11) NOT NULL,
+    GDP INT(11) NOT NULL,
+    introduce VARCHAR(255) NOT NULL,
+);
